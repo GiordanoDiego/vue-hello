@@ -12,3 +12,14 @@ document.getElementById('idHtml').innerHTML = noveVariabileJS;
 
 */
 
+
+
+
+const { createApp } = Vue;
+		createApp({
+			data() {
+			return {
+				message: 'Hello Vue!'
+		}
+    }
+	}).mount('#app');
